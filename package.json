@@ -1,0 +1,11 @@
+{
+  "name": "curry",
+  "description": "Functional toolkit for working with d3",
+  "version": "0.0.1",
+  "author": "Oliver Nightingale",
+  "main": "curry.js",
+  "devDependencies": {
+    "mocha": "1.12.0",
+    "chai": "1.7.2"
+  }
+}
