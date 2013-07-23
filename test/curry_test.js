@@ -4,7 +4,6 @@ if (typeof require !== 'undefined') {
 }
 
 describe('curry', function () {
-
   describe('arg', function () {
     it('should return the argument at the passed index', function () {
       var firstArg = curry.arg(0)
