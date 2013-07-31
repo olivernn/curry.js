@@ -104,10 +104,10 @@ describe('curry', function () {
     })
 
     it('maintains the original context', function () {
-      var obj = 'context', ctx
+      var obj = {}, ctx
 
       curry.pipe(function () { ctx = this }).call(obj)
-      assert.equal(ctx, obj)
+      assert.strictEqual(ctx, obj)
     })
   })
 
