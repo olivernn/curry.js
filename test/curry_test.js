@@ -129,5 +129,21 @@ describe('curry', function () {
 
       assert.ok(called)
     })
+
+    it('passes the original context to the predicate', function () {
+      var obj = {}, ctx
+          predicate = function () { ctx = this; return false }
+
+      curry.guard(predicate).call(obj)
+      assert.strictEqual(ctx, obj)
+    })
+
+    it('passes the original context to fn', function () {
+      var obj = {}, ctx,
+          predicate = function () { return true }
+
+      curry.guard(predicate, function () { ctx = this }).call(obj)
+      assert.strictEqual(ctx, obj)
+    })
   })
 })
