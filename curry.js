@@ -77,7 +77,7 @@
 
   var guard = function (predicate, fn) {
     return function () {
-      var args = slice(arguments),
+      var args = slice.call(arguments),
           ctx = this
 
       if (predicate.apply(ctx, args)) fn.apply(ctx, args)

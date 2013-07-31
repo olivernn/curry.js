@@ -145,5 +145,21 @@ describe('curry', function () {
       curry.guard(predicate, function () { ctx = this }).call(obj)
       assert.strictEqual(ctx, obj)
     })
+
+    it('passes arguments to the predicate', function () {
+      var obj = {}, args,
+          predicate = function () { args = arguments; return false }
+
+      curry.guard(predicate)(obj)
+      assert.strictEqual(args[0], obj)
+    })
+
+    it('passes arguments to fn', function () {
+      var obj = {}, args,
+          predicate = function () { return true }
+
+      curry.guard(predicate, function () { args = arguments })(obj)
+      assert.strictEqual(args[0], obj)
+    })
   })
 })
