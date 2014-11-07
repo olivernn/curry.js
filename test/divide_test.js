@@ -1,4 +1,4 @@
-var divide = requirejs('curry/divide')
+var divide = require('../lib/curry/divide')
 
 describe('divide', function () {
   it('should divide', function () {

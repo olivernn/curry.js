@@ -1,6 +1,6 @@
-var guard = requirejs('curry/guard'),
-    property = requirejs('curry/property'),
-    invoke = requirejs('curry/invoke')
+var guard = require('../lib/curry/guard'),
+    property = require('../lib/curry/property'),
+    invoke = require('../lib/curry/invoke')
 
 describe('guard', function () {
   it('halts unless predicate is true', function () {

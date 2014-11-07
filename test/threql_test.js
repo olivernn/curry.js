@@ -1,4 +1,4 @@
-var threql = requirejs('curry/threql')
+var threql = require('../lib/curry/threql')
 
 describe('threql', function () {
   it('should compare equality with ===', function () {

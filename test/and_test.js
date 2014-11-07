@@ -1,4 +1,4 @@
-var and = requirejs('curry/and')
+var and = require('../lib/curry/and')
 
 describe('and', function () {
   var noop = function () {}

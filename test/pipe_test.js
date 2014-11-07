@@ -1,6 +1,6 @@
-var pipe = requirejs('curry/pipe'),
-    divide = requirejs('curry/divide'),
-    add = requirejs('curry/add')
+var pipe = require('../lib/curry/pipe'),
+    divide = require('../lib/curry/divide'),
+    add = require('../lib/curry/add')
 
 describe('pipe', function () {
   it('combines multiple functions', function () {

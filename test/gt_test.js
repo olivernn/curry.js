@@ -1,4 +1,4 @@
-var gt = requirejs('curry/gt')
+var gt = require('../lib/curry/gt')
 
 describe('gt', function () {
   it('should return whether the argument is greater than the param', function () {

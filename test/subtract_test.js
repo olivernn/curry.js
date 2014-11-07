@@ -1,4 +1,4 @@
-var subtract = requirejs('curry/subtract')
+var subtract = require('../lib/curry/subtract')
 
 describe('subtract', function () {
   it('should take the param away from the argument', function () {

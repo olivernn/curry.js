@@ -1,4 +1,4 @@
-var or = requirejs('curry/or')
+var or = require('../lib/curry/or')
 
 describe('or', function () {
   var noop = function () {}
