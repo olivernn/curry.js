@@ -1,6 +1,6 @@
-var map = requirejs('curry/map'),
-    pipe = requirejs('curry/pipe'),
-    property = requirejs('curry/property')
+var map = require('../lib/curry/map'),
+    pipe = require('../lib/curry/pipe'),
+    property = require('../lib/curry/property')
 
 describe('map', function () {
   it('passes its arguments to all fns', function () {

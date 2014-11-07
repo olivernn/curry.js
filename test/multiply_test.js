@@ -1,4 +1,4 @@
-var multiply = requirejs('curry/multiply')
+var multiply = require('../lib/curry/multiply')
 
 describe('multiply', function () {
   it('should multiply', function () {

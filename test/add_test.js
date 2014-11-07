@@ -1,4 +1,4 @@
-var add = requirejs('curry/add')
+var add = require('../lib/curry/add')
 
 describe('add', function () {
   describe('with numbers', function () {

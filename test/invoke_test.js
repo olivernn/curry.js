@@ -1,4 +1,4 @@
-var invoke = requirejs('curry/invoke')
+var invoke = require('../lib/curry/invoke')
 
 describe('invoke', function () {
   describe('without arguments', function () {

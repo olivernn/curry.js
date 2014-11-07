@@ -1,4 +1,4 @@
-var prepend = requirejs('curry/prepend')
+var prepend = require('../lib/curry/prepend')
 
 describe('prepend', function () {
   it('should prepend to its argument', function () {

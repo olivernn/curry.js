@@ -1,4 +1,4 @@
-var lt = requirejs('curry/lt')
+var lt = require('../lib/curry/lt')
 
 describe('lt', function () {
   it('should return whether the argument is less than the param', function () {

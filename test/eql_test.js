@@ -1,4 +1,4 @@
-var eql = requirejs('curry/eql')
+var eql = require('../lib/curry/eql')
 
 describe('eql', function () {
   it('should compare equality with ==', function () {

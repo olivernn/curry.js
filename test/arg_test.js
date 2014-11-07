@@ -1,4 +1,4 @@
-var arg = requirejs('curry/arg')
+var arg = require('../lib/curry/arg')
 
 describe('arg', function () {
   it('should return the argument at the passed index', function () {

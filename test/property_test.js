@@ -1,4 +1,4 @@
-var property = requirejs('curry/property')
+var property = require('../lib/curry/property')
 
 describe('property', function () {
   var fooProperty
