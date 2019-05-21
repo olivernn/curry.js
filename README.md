@@ -12,7 +12,7 @@ Run the tests with `make`
 
 ## D3
 
-These functions help you to embrace d3's declaritive nature, for example:
+These functions help you to embrace d3's declarative nature, for example:
 
     // requires curry/property, curry/pipe and curry/index
 
